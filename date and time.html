@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Getting Date and Time in JavaScript.</title>
+    </head>
+    <body>
+        <h1>Getting Date and Time in JavaScript.</h1>
+        <p>Today, we will get to know the current date and time using JavaScript. We will also generate the appropriate greetings according to the time.</p>
+        <button onclick="MyFunction()"
+        <p id="demo"></p>
+        <p id=""
+
+        <script>
+        function MyFunction() {
+            var greeting;
+            var time= new Date().getHours();
+
+            if (time<10) {
+                greeting= "Good Morning! It's just the beginning of a marvellous day!";
+            }
+            else if (time<20) {
+                greeting= "Good Afternoon! You're right in the middle of an awesome day!";
+            }
+            else {
+                greeting= "Good Evening! You're nearing the end of the day!";
+        
+            }
+    
+        document.getElementById("hour").innerHTML = "Current Hour is:" + time;
+        document.getElementById("greet").innerHTML = greeting ;
+        }
+        </script>
+    </body>
+</html>

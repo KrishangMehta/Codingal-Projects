@@ -1,0 +1,12 @@
+<HTML>
+<Head>
+<title>DOM</title>
+</Head>
+<body>
+<h1 id ="One Thank you"></h1>
+<h1>This is Thank You message</h1>
+<h1>Methods</h1>
+<h1>These are methods in HTML</h1>
+</body>
+</script>
+</HTML>
